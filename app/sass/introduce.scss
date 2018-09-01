@@ -1,0 +1,90 @@
+.m-introduce-block {
+	.i-circle {margin:.6rem .8rem 0 0;float: left;}
+	.m-loading.relative{border-bottom: 1rem solid #eee;min-height: 45rem;}
+	.m-loading.relative svg{margin-top: 21rem}
+}
+
+.u-logined-comment{
+	overflow: hidden; font-size: 1.3rem; color: #999;padding: .6rem 0 1.5rem; line-height: 1.3rem;
+	.ui-blue {width: 7.1rem; height: 3rem; padding: 0; line-height: 2.8rem}
+}
+
+.m-introduce {
+	padding: 2rem 2rem .5rem; border-bottom: 1rem solid #eee;
+	.m-detail {width: calc((100%) - 12rem);float: right;}
+	.m-detail {
+		p {line-height: 2rem;}
+		p:first-child{margin-bottom: .5rem; font-size: 1.6rem;}
+		p > span, p > a {font-size: 1.3rem;display: inline-block; line-height: 2.1rem;color: #777777;}
+		p > span:nth-child(2n+1){margin-right: 1rem}
+	}
+	.u-full-btn{line-height: 2.6rem!important;}
+	.m-introduce-block {
+		border-bottom: .1rem solid #eee;padding-bottom: 2rem;
+		div {overflow: hidden}
+		.m-img-100 {display: block; float: left}
+	}
+
+	.m-book-list { position: relative; top: 0; left: 0; overflow: hidden; display: block;}
+	.m-book-list {
+		img { width: 10rem; height: 13.3rem; display: block; }
+	}
+
+	.m-action {
+		margin-top: 1.5rem;
+		.btn {width: 47%;line-height: 2.6rem;}
+		.btn.select {background: #eeeeee;color: #777!important;border: #eee solid 0.1rem!important;}
+	}
+
+	.m-breif {
+		.breif { font-size: 1.5rem; color: #333; line-height: 2.5rem; padding: 1.5rem 0;text-indent: 2em;-webkit-line-clamp: 4;text-align: justify; border-bottom: .1rem solid #eee;}
+		.now > div {margin-top: 1.5rem;overflow: hidden}
+		.last-chap {
+			margin: .8rem 0 .4rem!important;overflow: hidden;display: block;
+			p {display: block;max-width: 80%;font-size: 1.6rem;color: #777777;float: left}
+			.icon-suo{vertical-align: middle; line-height: 2.8rem;display: none;color: #777777}
+			.icon-right {color: #777777}
+		}
+		.last-chap.vip {
+			.icon-suo {display: inline-block}
+		}
+	}
+}
+
+.m-commit-block {
+	padding: 2rem 2rem .5rem; border-bottom: 1rem solid #eee; min-height: 10rem;
+	textarea,.m-comment-login {width: 100%;background: #fafafa;height: 10rem;border: .1rem solid #e2e6e5;border-radius: .6rem;padding: .6rem 1.2rem;margin-top: .6rem;display: block;font-size: 1.3rem; color:#999}
+	.m-comment-login a {color: #4981f2;}
+	.m-commit-input .f-fr{color: #999999}
+	.u-full-btn{line-height: 2.6rem!important;}
+}	
+
+.m-comment {
+	overflow: hidden;
+    	-webkit-animation: show 1s;
+    	-moz-animation: show 1s;
+    	animation: show 1s;
+	div {overflow: hidden; clear: both;position: relative}
+	.more .m-comment-list:nth-child(10n+3) {border: 0}
+	.u-title {color: #9ba4b4; max-width: 60%;}
+	.m-noData {margin: 5rem 0;}
+	.m-comment-list {
+		clear: both;
+		padding: 1.5rem 0;
+		border-width: 0 0 .1rem 0;
+		overflow: hidden;
+		&:last-child { border: 0 }
+		div { overflow: hidden }
+		img {width: 4rem;height: 4rem;border-radius: 50%;}
+		.u-content { margin-top: .2rem; font-size: 1.3rem; text-align: justify;}
+	}
+}
+
+.m-recommand {
+	padding-top: 2rem;
+	> div:first-child {
+		padding: 0 1.5rem;
+		.u-title {font-size: 1.6rem;}
+	}
+	.m-block > div:first-child {padding-top: 1.2rem;}
+}

@@ -1,0 +1,27 @@
+# Windows:
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#my:
+.project
+.svn
+.idea
+.vscode
+tmp
+node_modules
+webpack.config.js
+route.js
+server.bundle.js
+webpack-dev-server.js
+indexTemplate.html
+index.html
+npm-debug.log
+package.json
+test.js
+webpack.config.js
+.gitlab-ci.yml
+public/p
+server/access_token.json
+reports
+client

@@ -1,0 +1,45 @@
+$linear-left: #49a4f2;
+$linear-right: #4981f2;
+$light-font: #999999;
+$dark-font: #777777;
+
+.u-login-logo {width: 7.5rem; height: 7.5rem; background: url(../img/logo@2x.png) 50% / 100% no-repeat;margin: 5rem auto;}
+.m-login,.m-reset,.m-reseting {
+	.u-login-header {
+		padding: 2.5rem 0;color: #777;
+		.icon-left {padding: 0 1.5rem}
+		.u-back {overflow: hidden;}
+		.u-login-btn {
+			text-align: center;
+			a {position: relative; color: $light-font; margin: 0 4rem;display: inline-block;font-size: 1.7rem;padding: .6rem 0;}
+			a.active {
+				color: $linear-right;
+				&:before { content: ''; width: 2.8rem; height: .2rem; position: absolute;bottom: 0;background: $linear-right; left: 50%; margin-left: -14px;}
+			}
+		}
+	}
+	.u-login-block, .u-register-block {padding: 0 4rem; overflow: hidden;padding-bottom: 10rem;}
+	.u-input-box { 
+		position: relative; 
+		.btn { position: absolute;top: 0; right: 20px;font-size: 1.3rem;line-height: 4.5rem; padding: 0; color: $light-font}
+	}
+	.u-register-block p{text-align: center; color: $light-font; font-size: 1.1rem;margin-top: 1.5rem;}
+	.u-register-block p a{color: $linear-right}
+	.btn.u-btn-s {position: absolute; right: .65rem;top: .65rem}
+	.btn.u-btn-s.time{background: #ececec; color: $dark-font!important}
+	.u-input { margin: 0 auto 1.5rem;border: .1rem solid #eee;padding: 0 2rem; font-size: 1.6rem}
+	input::-webkit-input-placeholder { font-size: 1.6rem;line-height: 2rem }
+	.u-btn,.u-input { width: 100%; height: 4.5rem;border-radius: 2.25rem;display: block;line-height: 2rem;overflow: hidden}
+	.u-btn {padding: 0; color: #fff; margin: 3.5rem auto 0;font-size: 1.6rem;cursor: pointer; line-height: 4.5rem}
+	.u-email-text{ font-size: 2rem;text-align: center;margin-top: 9rem;line-height: 4rem}
+	.u-email-link {color: $linear-right; font-size: 1.8rem}
+	.u-email-sfont {font-size: 1.8rem}
+}
+
+.m-reset {
+	.u-login-logo{margin: 3.5rem auto 5.5rem}
+}
+
+.m-reseting {
+	.u-input-box{margin-top: 3.5rem}
+}
